@@ -4,6 +4,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="./resources/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script type="text/javascript" src="./resources/js/validation.js"></script>
 
 <title>상품 목록</title>
 </head>
@@ -84,7 +85,7 @@
 			
 			<div>
 				<div class="form-group row">
-					<input type="submit" class="btn btn-primary" value="등록">
+					<input type="submit" class="btn btn-primary" value="등록" onclick = "checkAddProduct()">
 				</div>
 			</div>
 		</form>
